@@ -1,0 +1,10 @@
+{
+    "trailingSlash":false,
+    "rewrites":
+    [
+        {
+            "source":"/httpd(.*)",
+            "destination":"/httpd/main.go"
+        }
+    ]
+}
